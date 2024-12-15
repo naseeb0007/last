@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 // Components
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import UpperNavbar from './Components/UpperNavbar';
-import { Helmet } from 'react-helmet-async';
 
 // Pages
 import Home from './Pages/Home';
@@ -37,8 +37,8 @@ import Osce from './Cources/osce';
 
 const App = () => {
   return (
-    <>
-      {/* Helmet for Global Metadata */}
+    <HelmetProvider>
+      {/* Global metadata via Helmet */}
       <Helmet>
         <meta name="google-site-verification" content="ibTKJQ2aqRqlLeQ6U2S-V8WRmITjWl7mBKNQXubYbjU" />
         <title>Bobby IELTS - Professional Training</title>
@@ -54,35 +54,37 @@ const App = () => {
       </Helmet>
 
       <div>
-        {/* Navbar */}
+        {/* Upper Navbar */}
         <UpperNavbar />
+
+        {/* Main Navbar */}
         <Navbar />
 
-        {/* Route Definitions */}
+        {/* Define Routes */}
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/courses" element={<Cources />} />
-          <Route exact path="/achievment" element={<Achievment />} />
-          <Route exact path="/nurces" element={<Nurces />} />
-          <Route exact path="/testimonials" element={<Testimonials />} />
-          <Route exact path="/trainning" element={<Trainning />} />
-          <Route exact path="/studyabroad" element={<StudyAbroad />} />
-          <Route exact path="/countries" element={<Countries />} />
-          <Route exact path="/ielts" element={<Ielts />} />
-          <Route exact path="/ncle" element={<Ncle />} />
-          <Route exact path="/oet" element={<Oet />} />
-          <Route exact path="/osce" element={<Osce />} />
-          <Route exact path="/privacy" element={<Privacy />} />
-          <Route exact path="/terms" element={<Termscondition />} />
-          <Route exact path="/enroll" element={<Login />} />
-          <Route exact path="/joblisting" element={<JobListing />} />
-          <Route exact path="/adminsign" element={<AdminSign />} />
-          <Route exact path="/admin" element={<Admin />} />
-          <Route exact path="/job1" element={<Nurse1 />} />
-          <Route exact path="/job2" element={<Nurse2 />} />
-          <Route exact path="/job3" element={<Nurse3 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/courses" element={<Cources />} />
+          <Route path="/achievment" element={<Achievment />} />
+          <Route path="/nurces" element={<Nurces />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/trainning" element={<Trainning />} />
+          <Route path="/studyabroad" element={<StudyAbroad />} />
+          <Route path="/countries" element={<Countries />} />
+          <Route path="/ielts" element={<Ielts />} />
+          <Route path="/ncle" element={<Ncle />} />
+          <Route path="/oet" element={<Oet />} />
+          <Route path="/osce" element={<Osce />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Termscondition />} />
+          <Route path="/enroll" element={<Login />} />
+          <Route path="/joblisting" element={<JobListing />} />
+          <Route path="/adminsign" element={<AdminSign />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/job1" element={<Nurse1 />} />
+          <Route path="/job2" element={<Nurse2 />} />
+          <Route path="/job3" element={<Nurse3 />} />
         </Routes>
 
         {/* Toast Notifications */}
@@ -91,7 +93,7 @@ const App = () => {
         {/* Footer */}
         <Footer />
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 
