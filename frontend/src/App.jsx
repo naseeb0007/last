@@ -40,7 +40,7 @@ const App = () => {
     <HelmetProvider>
       {/* Global metadata via Helmet */}
       <Helmet>
-        <meta name="google-site-verification" content="vYDo-FACbj8-OplR3dN3W-IeiWSTYewZamEqVRvtxvs" />
+        
         <title>Bobby IELTS - Professional Training</title>
         <meta
           name="description"
