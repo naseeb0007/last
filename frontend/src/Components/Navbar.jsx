@@ -127,7 +127,6 @@ function Navbar() {
             <li><Link to="/contact" onClick={toggleMobileMenu} className=" py-2 px-4">Contact</Link></li>
             <li><Link to="/about" onClick={toggleMobileMenu} className="py-2 px-4">About</Link></li>
             <li><Link to="/courses" onClick={toggleMobileMenu} className="hover:text-blue-500 py-2 px-4">COURSES</Link></li>
-            <li><Link to="/enroll" onClick={toggleMobileMenu} className="hover:text-blue-500 py-2 px-4">ENROLL</Link></li>
             <li><Link to="/adminsign" onClick={toggleMobileMenu} className="hover:text-blue-500 py-2 px-4">ADMIN</Link></li>
             <li><Link to="/terms" onClick={toggleMobileMenu} className="hover:text-blue-500 py-2 px-4">TERMS & CONDITION</Link></li>
             <li><Link to="/privacy" onClick={toggleMobileMenu} className="hover:text-blue-500 py-2 px-4">POLICY & PRIVACY</Link></li>

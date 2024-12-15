@@ -44,30 +44,32 @@ const StudyAbroad = () => {
   return (
     <div>
       {/* Full Banner Section */}
-<div
-  className="w-full h-64 sm:h-screen bg-cover bg-center"
+      <div
+  className="w-full h-64 sm:h-screen bg-cover bg-center relative"
   style={{ backgroundImage: `url(${Abroad})` }}
 >
-  {/* Text positioned below the image on small screens and at the bottom-right on medium and larger screens */}
-  <div className="absolute bottom-20 md:bottom-40 right-0 md:right-20 p-6 rounded-lg text-white w-full md:w-auto">
-    <h1 className="text-2xl font-bold text-center md:text-left">Simplifying Your Journey to</h1>
-    <h1 className="text-3xl md:text-5xl font-bold mt-4 text-red-600 text-center md:text-left">Study-Work Abroad</h1>
-    <p className="text-lg mt-4 text-center md:text-left">
-      Discover courses & universities abroad and connect with students studying there!
-    </p>
-    <div className="flex flex-col md:flex-row justify-center md:justify-start items-center md:items-start mt-4 space-x-0 md:space-x-8">
-      <div className="text-center md:text-left">
-        <h1 className="text-red-600 font-bold text-2xl">{studentCounseled}</h1>
-        <h1 className="font-bold">Student Counseled</h1>
-      </div>
-      <div className="text-center md:text-left mt-4 md:mt-0">
-        <h1 className="text-red-600 font-bold text-2xl">{courses}+</h1>
-        <h1 className="font-bold">Courses</h1>
-      </div>
-      <div className="text-center md:text-left mt-4 md:mt-0">
-        <h1 className="text-red-600 font-bold text-2xl">{universities}+</h1>
-        <h1 className="font-bold">Universities</h1>
-      </div>
+  {/* Image container */}
+</div>
+
+{/* Text container (below the image for mobile) */}
+<div className="p-6 text-white text-center md:absolute md:bottom-40 md:right-20 md:text-left">
+  <h1 className="text-2xl font-bold md:text-5xl mt-4 text-blue-600">Simplifying Your Journey to</h1>
+  <h1 className="text-3xl md:text-5xl font-bold mt-4 text-red-600">Study-Work Abroad</h1>
+  <p className="text-lg mt-4 md:text-5xl mt-4 text-blue-600">
+    Discover courses & universities abroad and connect with students studying there!
+  </p>
+  <div className="flex flex-col md:flex-row justify-center md:justify-start items-center md:items-start mt-4 space-y-4 md:space-y-0 md:space-x-8">
+    <div className="text-center md:text-left">
+      <h1 className="text-red-600 font-bold text-2xl">{studentCounseled}</h1>
+      <h1 className="font-bold">Student Counseled</h1>
+    </div>
+    <div className="text-center md:text-left">
+      <h1 className="text-red-600 font-bold text-2xl">{courses}+</h1>
+      <h1 className="font-bold">Courses</h1>
+    </div>
+    <div className="text-center md:text-left">
+      <h1 className="text-red-600 font-bold text-2xl">{universities}+</h1>
+      <h1 className="font-bold">Universities</h1>
     </div>
   </div>
 </div>
