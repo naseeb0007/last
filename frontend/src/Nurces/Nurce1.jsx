@@ -82,28 +82,9 @@ const Nurce1 = () => {
           <li><strong>Secure a Visa:</strong> Once you’ve accepted a job offer, you’ll need to apply for a work visa or other necessary documentation. Make sure to check with the country's embassy for specific visa requirements for nurses.</li>
         </ol>
 
-        <h3 className="text-xl font-medium mb-4">Phone Number Validation for Nurse Job Applications</h3>
-        <p className="mb-6">
-          To proceed with applying for nursing jobs abroad, you will be required to input your contact information, including a phone number, 
-          for follow-up. Below, we provide a basic phone number validation process. While the phone number field won't be visible to you on the page, 
-          please make sure your contact number follows a valid format for job applications. For instance, the number should be exactly 10 digits long 
-          and free of any spaces or special characters, as only numbers are allowed for the contact details.
-        </p>
+        
 
-        <form>
-          <div className="mb-4">
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              value={phone}
-              onChange={handlePhoneChange}
-              placeholder="Enter your phone number"
-              className="w-full p-3 border border-gray-300 rounded-md mt-2"
-            />
-            {!isPhoneValid && <span className="text-red-500 text-sm mt-2 block">Please enter a valid phone number (10 digits).</span>}
-          </div>
-        </form>
+        
 
       </div>
     </div>

@@ -210,21 +210,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -250,21 +250,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -290,21 +290,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -331,21 +331,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -372,21 +372,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
             <h1 className="font-bold text-sm">Courses</h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -413,21 +413,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -454,21 +454,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -495,21 +495,21 @@ useEffect(() => {
         {/* Banner image for small screens */}
       </div>
       <div className="absolute w-full px-4 sm:px-20 bottom-10 sm:bottom-20 text-center md:text-right text-white sm:mt-8">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">{banners[0].title}</h1>
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600">{banners[0].subtitle}</h1>
-        <p className="text-sm sm:text-base md:text-lg mt-4">{banners[0].description}</p>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold"></h1>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-4 text-red-600"></h1>
+        <p className="text-sm sm:text-base md:text-lg mt-4"></p>
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{studentCounseled}</h1>
-            <h1 className="font-bold text-sm">Students Counseled</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{courses}+</h1>
-            <h1 className="font-bold text-sm">Courses</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
           <div className="text-center">
-            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl">{universities}+</h1>
-            <h1 className="font-bold text-sm">Universities</h1>
+            <h1 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl"></h1>
+            <h1 className="font-bold text-sm"></h1>
           </div>
         </div>
         <div className="mt-6">
@@ -643,7 +643,7 @@ useEffect(() => {
     <div className="w-full md:w-1/2 p-6 mt-6 md:mt-0">
       <h2 className="text-4xl font-bold text-white">Message From Director</h2>
       <p className="mt-6 text-xl text-white">
-        "Hi, my name is Irwin (Bobby Sir), I’m your IELTS teacher and the writer of this website. My aim is to help you understand IELTS and TOEFL, and to score high. I have an experience of 20 years in teaching IELTS and TOEFL. I have completed my Training of teaching IELTS and TOEFL with the British Council (United Kingdom) and ETS (Education Testing Services, USA). I am also a nodal partner with IDP Australia."
+        "Hi, my name is Irwin (Bobby Sir), I’m your IELTS teacher and the writer of this website. My aim is to help you understand IELTS and TOEFL, Work Abroad and to score high. I have an experience of 20 years in teaching IELTS and TOEFL. I have completed my Training of teaching IELTS and TOEFL with the British Council (United Kingdom) and ETS (Education Testing Services, USA). I am also a nodal partner with IDP Australia."
       </p>
     </div>
   </div>

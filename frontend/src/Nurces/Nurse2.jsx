@@ -79,27 +79,7 @@ const Doctor2 = () => {
           <li><strong>Visa and Work Permit:</strong> Once hired, you will need to apply for a work visa and ensure you have all the legal documents to practice in the new country.</li>
         </ol>
 
-        <h3 className="text-xl font-medium mb-4">Phone Number Validation for Doctor Job Applications</h3>
-        <p className="mb-6">
-          As part of your job application process, you may need to provide a valid phone number for communication purposes. Below is a phone number validation process.
-          Please ensure that your phone number is entered correctly in the required format. The number must be exactly 10 digits long, 
-          with no spaces or special characters.
-        </p>
-
-        <form>
-          <div className="mb-4">
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              value={phone}
-              onChange={handlePhoneChange}
-              placeholder="Enter your phone number"
-              className="w-full p-3 border border-gray-300 rounded-md mt-2"
-            />
-            {!isPhoneValid && <span className="text-red-500 text-sm mt-2 block">Please enter a valid phone number (10 digits).</span>}
-          </div>
-        </form>
+        
       </div>
     </div>
   );

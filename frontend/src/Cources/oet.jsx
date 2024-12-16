@@ -1,5 +1,5 @@
 import React from 'react';
-import Nurse from "../assets/oet.jpeg"; // Import the image
+import Nurse from "../assets/real.jpeg"; // Import the image
 
 const Oet = () => {
   return (

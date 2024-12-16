@@ -108,16 +108,7 @@ const Footer = () => {
           <p>&copy; 2024 DhiWise PVT. LTD. All rights reserved</p>
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0 hidden sm:flex">
-          <h1>Follow Us On</h1>
-          <a href="https://www.instagram.com/bobbyielts?igsh=MXVuNzF5NW9na2dxZg==" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={20} className="hover:text-pink-800 text-red-700 font-bold text-lg mx-2" />
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100057307517297&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
-            <FaFacebook size={20} className="hover:text-blue-500 mx-2" />
-          </a>
-          <a href="https://youtube.com/@covenanteducation3561?si=b346lr5bJog08MvB" target="_blank" rel="noopener noreferrer">
-            <FaYoutube size={20} className="hover:text-red-500 text-red-800 mx-2" />
-          </a>
+          
         </div>
       </div>
     </footer>

@@ -103,10 +103,7 @@ const StudyAbroad = () => {
           </div>
         ))}
       </div>
-      <div className="text-center my-12">
-  <h1 className="text-5xl font-bold">Our Global Presence</h1>
-  <img src={map} alt="Global Map" className="mx-auto mt-8 w-full max-w-4xl" />
-</div>
+      
 <div className="p-8 bg-gray-100">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">WHAT WE DO</h1>
       <p className="text-lg text-center text-gray-600 mb-12">
@@ -211,7 +208,7 @@ const StudyAbroad = () => {
   <div className="w-full md:w-1/2 space-y-8">
     {/* About Section */}
     <div>
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">ABOUT BOBBY IELTS</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Covenant Education Institute</h1>
       <p className="text-lg text-gray-600 leading-relaxed">
         You are our highest priority, and we consider the time and money one has to spend to study abroad. Therefore, our dedicated team is constantly working diligently to cater to our client's needs and necessities and provide them the best possible offer.
       </p>

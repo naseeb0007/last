@@ -34,16 +34,11 @@ function Navbar() {
             <FiPhone size={30} className="mr-2 text-red-600" />
             <span className="text-blue-900 flex font-bold text-lg items-center space-x-2 hover:text-red-600 hover:rounded-lg hover:px-4 hover:py-2 transition-all duration-300 ease-in-out">+91 9335920991</span>
             <FiMail size={30} className="mr-2 text-red-600" />
+            
             <span className="text-blue-900 flex font-bold text-lg items-center space-x-2 hover:text-red-600 hover:rounded-lg hover:px-4 hover:py-2 transition-all duration-300 ease-in-out">irwinamitdas@gmail.com</span>
-            <a href="https://www.instagram.com/bobbyielts?igsh=MXVuNzF5NW9na2dxZg==" target="_blank" rel="noopener noreferrer">
-              <FaInstagram size={20} className="hover:text-pink-800 text-red-700 font-bold text-lg mx-2" />
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100057307517297&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
-              <FaFacebook size={20} className="hover:text-blue-500 mx-2" />
-            </a>
-            <a href="https://youtube.com/@covenanteducation3561?si=b346lr5bJog08MvB" target="_blank" rel="noopener noreferrer">
-              <FaYoutube size={20} className="hover:text-red-500 text-red-800 mx-2" />
-            </a>
+            
+            
+            
           </div>
         </div>
       </div>

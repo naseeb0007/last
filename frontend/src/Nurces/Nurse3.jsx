@@ -78,10 +78,7 @@ const Nurse3 = () => {
           <li><strong>Visa and Immigration:</strong> Once you’ve been offered a job, you’ll need to apply for a work visa. Each country has specific requirements and procedures for issuing work permits, so it’s essential to understand the regulations.</li>
         </ol>
 
-        <h3 className="text-xl font-medium mb-4">Conclusion</h3>
-        <p className="mb-6">
-          Working as an allied health professional abroad is a fulfilling and exciting career opportunity. Not only will you be able to advance in your field, but you will also have the chance to experience new cultures, meet new people, and make a difference in the lives of patients worldwide. If you are passionate about healthcare and want to take your career to the next level, pursuing a job abroad as an allied health professional could be the perfect next step for you.
-        </p>
+        
       </div>
     </div>
   );
